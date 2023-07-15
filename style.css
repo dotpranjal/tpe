@@ -289,3 +289,29 @@ nav{
     cursor: none;
 
 }
+#menu{
+    /* display: none; */
+    width: 30px;
+}
+@media screen and (max-width:400px) {
+    nav{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        padding: 10px 50px;
+    }
+    
+
+
+    .logoside{
+        display: flex;
+        flex-direction: column;
+        height: 300px;
+        position: fixed;
+        top: 0px;
+        right: -300px;
+        background: blue;
+    } 
+
+}
