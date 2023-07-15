@@ -313,5 +313,19 @@ nav{
         right: -300px;
         background: blue;
     } 
-
+    
+    #cards{
+        display: flex;
+        flex-direction: column;
+        width: 100vw;
+    }
+    #card1, #card2, #card3{
+        width: 80vw;
+        margin: 20px;
+    }
+    #why{
+        display: flex;
+        flex-direction: row;
+        overflow: scroll;
+    }
 }
