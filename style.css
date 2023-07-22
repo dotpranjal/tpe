@@ -297,12 +297,26 @@ nav{
     nav{
         display: flex;
         flex-direction: column;
-        justify-content: space-around;
+        justify-content: center;
         align-items: center;
-        padding: 10px 50px;
+        padding: 10px 10px;
+    }
+    .rightnav{
+        /* width: 80px; */
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    #login{
+        width: 140px;
+        margin: 30px;
+    }
+    #menu{
+        display: inline;
+        /* position: absolute; */
+        cursor: pointer;
     }
     
-
 
     .logoside{
         display: flex;
@@ -316,16 +330,22 @@ nav{
     
     #cards{
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
         width: 100vw;
     }
     #card1, #card2, #card3{
-        width: 80vw;
-        margin: 20px;
+        width: 50vw;
+        height: 25vh;
+        overflow: scroll;
+        margin: 10px;
     }
     #why{
         display: flex;
         flex-direction: row;
         overflow: scroll;
     }
+    video{
+        display: none;
+    }
+    
 }
