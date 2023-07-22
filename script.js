@@ -5,9 +5,14 @@ document.addEventListener("mousemove", function (dist){
   ball.style.top = dist.y + "px"
 
 })
+
+const menu = document.getElementById("menu");
+document.getElementById("menu").addEventListener("onclick", ()=>{
+  document.getElementsByClassName("logoside").style.right = '0px';
+})
+
 gsap.registerPlugin(ScrollTrigger);
 
-// Using Locomotive Scroll from Locomotive https://github.com/locomotivemtl/locomotive-scroll
 
 const locoScroll = new LocomotiveScroll({
   el: document.querySelector(".smooth-scroll"),
